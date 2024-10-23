@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:lang="en"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:fs="http://www.enssup.gov.ma/fs#"
+    xmlns:etud="http://www.enssup.gov.ma/etudiant#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description rdf:about="http//www.fsac.ac.ma/etudiants/abbassi.abbass">
+        <etud:nom xml:lang="fr">abbass</etud:nom>
+        <etud:nom xml:lang="ar">عباس</etud:nom>
+        <etud:date_naissance rdf:datatype="xs:date">1999-12-06</etud:date_naissance>
+        <etud:établissement rdf:resource="http://www.univh2c.ma/etablissements/fsac"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.univh2c.ma/etablissements/fsac">
+        <fs:nom_complet>Faculté des sciences</fs:nom_complet>
+        <fs:nom_abrégé>FST</fs:nom_abrégé>
+        <fs:anneé_creation rdf:datatype="xs:gyear">1982</fs:anneé_creation>
+        <fs:université_attaché rdf:resource="http://www.univh2c.ma"/>
+    </rdf:Description>
+
+</rdf:RDF>
