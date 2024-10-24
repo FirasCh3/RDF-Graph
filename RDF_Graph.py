@@ -1,10 +1,10 @@
 import xml.etree.ElementTree as ET
-tree = ET.parse("tp2.rdf")
-root = tree.getroot()
-print(root.tag, root.attrib)
-def traverse_file(root):
-    if root is not None:
-        print(root.tag)
-        for child in root:
-            traverse_file(child)
-traverse_file(root)
+class RDF_Graph:
+    def __init__(self, path):
+        tree = ET.parse(path)
+        root = tree.getroot()
+    def traverse_file(self, root):
+        if root is not None:
+            print(root.tag)
+            for child in root:
+                self.traverse_file(child)
