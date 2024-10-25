@@ -1,6 +1,9 @@
 A simple visualizer for RDF files
 
 Steps of installation:
+
+##
+
 &emsp;1- git clone https://github.com/FirasCh3/RDF-Graph.git
 
 ##
