@@ -15,3 +15,5 @@ Steps of installation:
 &emsp;3-python -u RDF_Graph.py 'path_to_rdf_file'
 
 ##
+
+![screenshot](graph.jpeg)
